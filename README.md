@@ -61,7 +61,7 @@ Nessuna dipendenza, nessun backend, nessun framework — un singolo file `.html`
 
 ```bash
 # 1. Clona la repository
-git clone https://github.com/tuo-username/ops-forge.git
+git clone https://github.com/LorenzoPetrucci097/ops-forge.git
 
 # 2. Apri il file nel browser
 # Doppio click su "Quiz CS0126IT.html"
