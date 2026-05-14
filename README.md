@@ -64,9 +64,9 @@ Nessuna dipendenza, nessun backend, nessun framework - un singolo file `.html` d
 git clone https://github.com/LorenzoPetrucci097/ops-forge.git
 
 # 2. Apri il file nel browser
-# Doppio click su "Quiz CS0126IT.html"
+# Doppio click su "ops-forge.html"
 # oppure
-open "Quiz CS0126IT.html"
+open "ops-forge.html"
 ```
 
 > Nessuna installazione richiesta. Funziona offline dopo il primo caricamento.
@@ -81,7 +81,7 @@ open "Quiz CS0126IT.html"
 ## 🗂️ Struttura del Progetto
 
 ```
-Quiz CS0126IT.html          # Applicazione completa (single-file)
+ops-forge.html          # Applicazione completa (single-file)
 │
 ├── <style>                 # CSS - tema dark terminal, layout responsive
 ├── <body>
