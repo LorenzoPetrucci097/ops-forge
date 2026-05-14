@@ -18,7 +18,7 @@
 
 Quiz interattivo single-file sviluppato come strumento di ripasso personale per la preparazione alla certificazione **Cisco CyberOps Associate 200-201** e per il ripasso generale in ambito Cybersecurity.
 
-Nessuna dipendenza, nessun backend, nessun framework — un singolo file `.html` da aprire nel browser.
+Nessuna dipendenza, nessun backend, nessun framework - un singolo file `.html` da aprire nel browser.
 
 ---
 
@@ -28,9 +28,9 @@ Nessuna dipendenza, nessun backend, nessun framework — un singolo file `.html`
 | Simulazione | Lingua | Domande | Fonte |
 |---|---|---|---|
 | Simulazione 1 | 🇮🇹 Italiano | 100 | CyberOps Core |
-| Simulazione 2 | 🇮🇹 Italiano | 100 | Official Cert Guide — Omar Santos |
+| Simulazione 2 | 🇮🇹 Italiano | 100 | Official Cert Guide - Omar Santos |
 | Simulation 1 | 🇬🇧 English | 100 | CyberOps Core |
-| Simulation 2 | 🇬🇧 English | 100 | Official Cert Guide — Omar Santos |
+| Simulation 2 | 🇬🇧 English | 100 | Official Cert Guide - Omar Santos |
 
 - ⏱️ **Timer da 120 minuti** con modalità esame e pratica libera
 - 📊 **5 domini** con statistiche per-dominio al termine
@@ -83,21 +83,21 @@ open "Quiz CS0126IT.html"
 ```
 Quiz CS0126IT.html          # Applicazione completa (single-file)
 │
-├── <style>                 # CSS — tema dark terminal, layout responsive
+├── <style>                 # CSS - tema dark terminal, layout responsive
 ├── <body>
 │   ├── #sidebar            # Sidebar di ripasso settimanale
 │   ├── #stats-sidebar      # Sidebar statistiche & progressi
-│   ├── #page-home          # Home — griglia unità + lancio simulazioni
+│   ├── #page-home          # Home - griglia unità + lancio simulazioni
 │   ├── #page-quiz          # Modalità quiz unità
 │   ├── #page-results       # Risultati quiz con analisi errori
 │   └── #page-cyberops      # Motore simulazione esame CyberOps
 │
 └── <script>
     ├── QUIZ_DATA[]             # Domande unità (10+ unità tematiche)
-    ├── CYBEROPS_QUESTIONS[]    # Bank A — 100 domande IT
-    ├── CYBEROPS_QUESTIONS_B[]  # Bank B — 100 domande IT (Official Cert Guide)
-    ├── CYBEROPS_QUESTIONS_A_EN[] # Bank A — 100 domande EN
-    └── CYBEROPS_QUESTIONS_B_EN[] # Bank B — 100 domande EN (Official Cert Guide)
+    ├── CYBEROPS_QUESTIONS[]    # Bank A - 100 domande IT
+    ├── CYBEROPS_QUESTIONS_B[]  # Bank B - 100 domande IT (Official Cert Guide)
+    ├── CYBEROPS_QUESTIONS_A_EN[] # Bank A - 100 domande EN
+    └── CYBEROPS_QUESTIONS_B_EN[] # Bank B - 100 domande EN (Official Cert Guide)
 ```
 
 ---
